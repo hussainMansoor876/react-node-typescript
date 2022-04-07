@@ -1,0 +1,79 @@
+.main {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.firstRow {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.phoneInput {
+  padding: 27px;
+}
+
+.form-control {
+  max-width: inherit;
+  min-width: -webkit-fill-available;
+}
+
+.validate-input {
+  background-color: rgba(152, 225, 255, 1) !important;
+  border: 1px solid rgba(64, 198, 255, 1) !important;
+}
+
+.input-transition {
+  transition: all 300ms ease-out;
+}
+
+#reddit-input-helper-text {
+  margin-left: 0 !important;
+}
+
+.form-btn {
+  width: 100%;
+  margin-top: 20px !important;
+  padding: 10px 0 !important;
+  color: #ffffff !important;
+}
+
+.emailImg {
+  font-weight: 900;
+  margin-left: -15px;
+}
+
+.second {
+  display: flex;
+  flex-direction: row;
+}
+
+.third {
+  margin-top: 150px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main1 {
+  margin-top: 50px;
+  width: 450px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+
+  .main1 {
+    margin-top: 20px;
+    width: 450px;
+    padding: 15px;
+    border: none;
+  }
+}
