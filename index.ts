@@ -6,7 +6,7 @@ import { mongoose } from './server/config'
 import router from './server/routes'
 
 const app: Application = express()
-const PORT = process.env.PORT || 4000
+const PORT = process.env.PORT || 8080
 const db = mongoose.connection
 
 db.on('error', (err: string) => {
